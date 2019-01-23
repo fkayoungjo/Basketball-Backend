@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  points: 1
+  your_score: 1
+  opponent_score: 1
+  player1: 1
+  player2: 1
+  player3: 1
+  player4: 1
+  player5: 1
+  opponent1: 1
+  opponent2: 1
+  opponent3: 1
+  opponent4: 1
+  opponent5: 1
+
+two:
+  name: MyString
+  points: 1
+  your_score: 1
+  opponent_score: 1
+  player1: 1
+  player2: 1
+  player3: 1
+  player4: 1
+  player5: 1
+  opponent1: 1
+  opponent2: 1
+  opponent3: 1
+  opponent4: 1
+  opponent5: 1

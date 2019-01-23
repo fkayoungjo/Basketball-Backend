@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_21_183322) do
+ActiveRecord::Schema.define(version: 2019_01_23_103630) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -82,6 +82,25 @@ ActiveRecord::Schema.define(version: 2019_01_21_183322) do
     t.integer "cfid"
     t.string "cfparams"
     t.integer "price"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.integer "points"
+    t.integer "your_score"
+    t.integer "opponent_score"
+    t.integer "player1"
+    t.integer "player2"
+    t.integer "player3"
+    t.integer "player4"
+    t.integer "player5"
+    t.integer "opponent1"
+    t.integer "opponent2"
+    t.integer "opponent3"
+    t.integer "opponent4"
+    t.integer "opponent5"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
